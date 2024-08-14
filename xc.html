@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيق دردشة</title>
+    <link rel="stylesheet" href="xc.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>تطبيق دردشة</h1>
+            <p class="developer">المطور: عبدالله محمودي</p>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <div class="message received">
+                <p>مرحبا! كيف حالك؟</p>
+                <span class="timestamp">10:30 AM</span>
+            </div>
+            <div class="message sent">
+                <p>أنا بخير، شكرا! ماذا عنك؟</p>
+                <span class="timestamp">10:32 AM</span>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="message-input" placeholder="اكتب رسالة...">
+            <button onclick="sendMessage()">إرسال</button>
+        </div>
+    </div>
+    <script src="xc.js"></script>
+</body>
+</html>
